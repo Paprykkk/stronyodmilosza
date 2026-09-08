@@ -1,6 +1,7 @@
 import Navbar from './components/navbar';
 import Hero from './components/hero';
 import Offer from './components/offer';
+import DemosSection from './components/DemosSection';
 import Process from './components/process';
 import About from './components/about';
 import FAQ from './components/faq';
@@ -19,6 +20,10 @@ export default function Home() {
 
       <AnimatedSection>
         <Offer />
+      </AnimatedSection>
+
+      <AnimatedSection>
+        <DemosSection />
       </AnimatedSection>
 
       <AnimatedSection>
