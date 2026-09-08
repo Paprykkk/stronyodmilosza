@@ -87,7 +87,7 @@ export default function ArchitekturaDemo() {
             </span>
           </div>
           <Link
-            href="https://stronyodmilosza.pl"
+            href="/"
             className="text-xs font-semibold bg-neutral-800 hover:bg-amber-500 hover:text-black text-neutral-200 px-4 py-2 rounded-xl transition-all border border-neutral-700 hover:border-amber-500"
           >
             ← Powrót do oferty
@@ -162,7 +162,7 @@ export default function ArchitekturaDemo() {
                   step="10"
                   value={area}
                   onChange={(e) => setArea(Number(e.target.value))}
-                  className="w-full h-2 bg-neutral-800 rounded-lg appearance-none cursor-pointer accent-amber-500"
+                  className="w-full h-3 bg-neutral-800 rounded-lg appearance-none cursor-pointer accent-amber-500 touch-none select-none my-2"
                 />
               </div>
 

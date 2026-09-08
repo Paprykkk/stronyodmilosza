@@ -89,7 +89,7 @@ export default function BudownictwoDemo() {
             </span>
           </div>
           <Link
-            href="https://stronyodmilosza.pl"
+            href="/"
             className="text-xs font-semibold bg-stone-800 hover:bg-amber-500 hover:text-black text-stone-200 px-4 py-2 rounded-xl transition-all border border-stone-700 hover:border-amber-500"
           >
             ← Powrót do oferty
