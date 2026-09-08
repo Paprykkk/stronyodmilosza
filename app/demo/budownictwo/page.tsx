@@ -162,7 +162,7 @@ export default function BudownictwoDemo() {
                   step="10"
                   value={area}
                   onChange={(e) => setArea(Number(e.target.value))}
-                  className="w-full h-2 bg-stone-800 rounded-lg appearance-none cursor-pointer accent-amber-500"
+                  className="w-full h-3 bg-stone-800 rounded-lg appearance-none cursor-pointer accent-amber-500 touch-none select-none my-2"
                 />
               </div>
 
