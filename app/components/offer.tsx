@@ -2,21 +2,21 @@ export default function Offer() {
   const plans = [
     {
       timeBadge: "~3 dni robocze*",
-      price: "od 2 500 zł",
+      price: "od 800 zł",
       title: "Prosta Wizytówka (One-Page)",
       description: "Błyskawicznie ładująca się strona lądowania z formularzem i prezentacją oferty. Idealna dla lokalnych firm usługowych.",
       note: "*Czas wdrożenia zależy od sprawnej komunikacji oraz szybkiego dostarczenia materiałów (tekstów, logo, zdjęć)."
     },
     {
       timeBadge: "~1 - 2 tygodnie*",
-      price: "od 3 800 zł",
+      price: "od 1 200 zł",
       title: "Rozbudowana Strona Firmowa",
       description: "Wielostronicowa witryna z osobnymi zakładkami usług, cennikiem i zaawansowanym podłożem pod SEO.",
       note: "*Czas wdrożenia zależy od sprawnej komunikacji oraz szybkiego dostarczenia materiałów / akceptacji projektów."
     },
     {
       timeBadge: "~2 - 3 tygodnie*",
-      price: "od 5 000 zł",
+      price: "od 2 000 zł",
       title: "Sklep Internetowy (E-commerce)",
       description: "Dedykowany sklep z integracją płatności online, katalogiem produktów i systemem obsługi zamówień.",
       note: "*Czas wdrożenia zależy od sprawnej komunikacji oraz szybkiego dostarczenia opisów, cenników i zdjęć produktów."

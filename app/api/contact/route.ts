@@ -15,7 +15,7 @@ export async function POST(request: Request) {
     // Wysłanie maila
     const data = await resend.emails.send({
       from: 'Formularz <onboarding@resend.dev>', // W darmowej wersji Resend wysyła z tego adresu domyślnego
-      to: [process.env.MY_EMAIL || 'twój_prywatny_mail@gmail.com'],
+      to: [process.env.MY_EMAIL || 'miloszwalasik1@gmail.com'],
       subject: `Nowa wiadomość od: ${name}`,
       replyTo: email,
       html: `
